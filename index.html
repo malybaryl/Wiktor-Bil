@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Wiktor Bil - Portfolio Fryzjerskie</title>
+  <title>Wiktor Bil</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" rel="stylesheet">
   <style>
@@ -27,7 +27,7 @@
     <img src="logo.png" alt="Logo Wiktor Bil" class="logo">
   </header>
 
-  <section class="container">
+  <section id="about" class="container">
     <h2 class="section-title text-center">O mnie</h2>
     <div class="row justify-content-center">
       <div class="col-md-7 about-text text-justify">
@@ -36,7 +36,7 @@
     </div>
   </section>
 
-  <section class="container">
+  <section id="portfolio" class="container">
     <h2 class="section-title text-center">Portfolio</h2>
     <div class="row g-3 justify-content-center">
       <div class="col-6 col-md-4 col-lg-3">
@@ -58,7 +58,7 @@
     </div>
   </section>
 
-  <section class="container">
+  <section id="contact" class="container">
     <h2 class="section-title text-center">Kontakt</h2>
     <div class="row justify-content-center">
       <div class="col-md-6 text-center">
@@ -73,10 +73,50 @@
       </div>
     </div>
   </section>
+        
+ <div class="my-3 d-flex justify-content-center">
+  <img src="instagram.jpeg" alt="Instagram QR @bilku__"
+    class="img-fluid qr-instagram"
+    style="border-radius:32px; box-shadow:0 4px 16px #a9822c33; background:#fff; padding:8px; max-width:320px;">
+</div>
 
-  <footer>
-    &copy; 2025 Wiktor Bil &mdash; Portfolio fryzjerskie
-  </footer>
+
+ <footer class="mt-5 pt-4 pb-2 bg-dark text-light border-top">
+  <div class="container">
+    <div class="row align-items-center gy-3">
+      <div class="col-md-4 text-center text-md-start">
+        <strong>Wiktor Bil</strong> &nbsp;|&nbsp; 
+        <span id="footerYear"></span>
+      </div>
+      <div class="col-md-4 text-center">
+        <a href="#about" class="text-light text-decoration-none mx-2">O mnie</a>
+        <a href="#portfolio" class="text-light text-decoration-none mx-2">Portfolio</a>
+        <a href="#contact" class="text-light text-decoration-none mx-2">Kontakt</a>
+      </div>
+    <div class="col-md-4 text-center">
+  <a href="mailto:bilwiktor6@gmail.com" class="text-light mx-1" title="E-mail">
+    <svg width="22" height="22" fill="currentColor" viewBox="0 0 16 16"><path d="M0 4a2 2 0 012-2h12a2 2 0 012 2v8a2 2 0 01-2 2H2a2 2 0 01-2-2V4zm2-1a1 1 0 00-1 1v.217l7 4.2 7-4.2V4a1 1 0 00-1-1H2zm13 2.383l-4.708 2.825L15 11.385V5.383zM14.247 12l-4.913-2.949L8 9.882l-1.334-.83L1.753 12H14.247zM1 11.384l4.708-3.176L1 5.383v6.001z"/></svg>
+  </a>
+  <a href="https://www.instagram.com/bilku__" target="_blank" class="text-light mx-1" title="Instagram">
+    <svg width="22" height="22" fill="currentColor" viewBox="0 0 16 16"><path d="M8 3c-1.654 0-1.863.006-2.515.036-.651.03-1.087.136-1.345.23-.329.115-.563.253-.81.5a2.23 2.23 0 00-.5.81c-.094.258-.2.694-.23 1.345C3.006 6.137 3 6.346 3 8s.006 1.863.036 2.515c.03.651.136 1.087.23 1.345.115.329.253.563.5.81.258.247.481.384.81.5.258.094.694.2 1.345.23C6.137 12.994 6.346 13 8 13s1.863-.006 2.515-.036c.651-.03 1.087-.136 1.345-.23.329-.115.563-.253.81-.5.247-.258.384-.481.5-.81.094-.258.2-.694.23-1.345C12.994 9.863 13 9.654 13 8s-.006-1.863-.036-2.515c-.03-.651-.136-1.087-.23-1.345a2.23 2.23 0 00-.5-.81c-.258-.247-.481-.384-.81-.5-.258-.094-.694-.2-1.345-.23C9.863 3.006 9.654 3 8 3zm0-1c1.675 0 1.888.007 2.55.037.657.03 1.104.14 1.488.296.402.163.75.402 1.09.741.339.34.578.688.74 1.09.157.384.267.831.297 1.488C14.993 6.113 15 6.326 15 8c0 1.674-.007 1.888-.037 2.55-.03.657-.14 1.104-.297 1.488a2.873 2.873 0 01-.74 1.09 2.873 2.873 0 01-1.09.74c-.384.157-.831.267-1.488.297C9.888 14.993 9.675 15 8 15c-1.674 0-1.887-.007-2.55-.037-.657-.03-1.104-.14-1.488-.297a2.873 2.873 0 01-1.09-.74 2.873 2.873 0 01-.74-1.09c-.157-.384-.267-.831-.297-1.488C1.007 9.888 1 9.674 1 8c0-1.674.007-1.887.037-2.55.03-.657.14-1.104.297-1.488A2.873 2.873 0 012.074 2.87a2.873 2.873 0 011.09-.74c.384-.157.831-.267 1.488-.297C6.113 1.007 6.326 1 8 1zm0 3a4 4 0 100 8 4 4 0 000-8zm0 1a3 3 0 110 6 3 3 0 010-6zm4.5-2a1 1 0 11-2 0 1 1 0 012 0z"/></svg>
+  </a>
+ 
+</div>
+
+    </div>
+    <div class="row mt-2">
+      <div class="col text-center" style="font-size: 0.95em; color: #bbb;">
+        Projekt i wykonanie: Wiktor Bil &mdash; Portfolio fryzjerskie
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+  // Dynamiczny rok
+  document.getElementById('footerYear').textContent = new Date().getFullYear();
+</script>
+
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
